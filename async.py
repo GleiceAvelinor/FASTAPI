@@ -1,5 +1,5 @@
 import asyncio
-
+#corrotina assincrona
 async def tarefa(nome, duracao):
     print(f"tarefa[{nome}] iniciando...")
     await asyncio.sleep(duracao)
@@ -12,6 +12,7 @@ async def main():
         tarefa (2 ,6)
     )
     await tarefa(3, 4)
+    
 # Processo sincrono
 
 '''async def main():
